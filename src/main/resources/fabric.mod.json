@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bedrockoverlay",
+  "version": "1.0",
+  "name": "BedrockOverlay",
+  "description": "never get stuck again on the roof",
+  "authors": ["xXseesXx"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bedrockoverlay/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.xXseesXx.bedrockoverlay.BedrockOverlayClient"
+    ],
+    "main": [
+      "org.xXseesXx.bedrockoverlay.BedrockOverlayMod"
+    ],
+    "modmenu": [
+      "org.xXseesXx.bedrockoverlay.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "modmenu": ">=7.0.0"
+  }
+}

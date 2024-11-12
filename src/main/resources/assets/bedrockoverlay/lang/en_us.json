@@ -1,0 +1,10 @@
+{
+  "key.bedrockoverlay.toggle": "Toggle Bedrock Overlay",
+  "category.bedrockoverlay.general": "Bedrock Overlay",
+  "config.bedrockoverlay.title": "Bedrock Overlay Configuration",
+  "config.bedrockoverlay.category.general": "General",
+  "config.bedrockoverlay.option.enabled": "Enabled",
+  "config.bedrockoverlay.option.enabled.tooltip": "Toggle the bedrock overlay on/off",
+  "config.bedrockoverlay.option.renderDistance": "Render Distance",
+  "config.bedrockoverlay.option.renderDistance.tooltip": "How far away to render the bedrock overlay (in blocks)"
+}
